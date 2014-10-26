@@ -32,7 +32,9 @@
                                             <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rS7-0k-KTF"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cob-MN-QSd">
+                                                    <rect key="frame" x="0.0" y="1" width="150" height="150"/>
+                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SIJ-9K-3bS">
                                                     <rect key="frame" x="16" y="121" width="118" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -44,7 +46,7 @@
                                         </view>
                                         <connections>
                                             <outlet property="captionLabel" destination="SIJ-9K-3bS" id="Gtd-MC-SxQ"/>
-                                            <outlet property="imageView" destination="rS7-0k-KTF" id="dn2-HI-41j"/>
+                                            <outlet property="imageView" destination="Cob-MN-QSd" id="Wid-dd-oS8"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
