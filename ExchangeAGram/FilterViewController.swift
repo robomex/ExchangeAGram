@@ -124,7 +124,7 @@ class FilterViewController: UIViewController, UICollectionViewDataSource, UIColl
         let extent = filteredImage.extent()
         let cgImage: CGImageRef = context.createCGImage(filteredImage, fromRect: extent)
         
-        let finalImage = UIImage(CGImage: cgImage)
+        let finalImage = UIImage(CGImage: cgImage, scale: 1.0, orientation: UIImageOrientation.Up)
         
         return finalImage!
         
