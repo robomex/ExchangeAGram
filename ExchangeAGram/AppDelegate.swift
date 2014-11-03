@@ -22,8 +22,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         NSURLCache.setSharedURLCache(cache)
         
+        FBLoginView.self
+        FBProfilePictureView.self
+        
         return true
     }
+    
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
+        var wasHandled: Bool = FBAppCall.handleOpenURL(url, sourceApplication: sourceApplication)
+        return wasHandled
+    }
+    
     
     func applicationDidReceiveMemoryWarning(application: UIApplication) {
         NSURLCache.sharedURLCache().removeAllCachedResponses()
