@@ -2,7 +2,7 @@
 //  FeedItem.swift
 //  ExchangeAGram
 //
-//  Created by Tony Morales on 10/28/14.
+//  Created by Tony Morales on 11/4/14.
 //  Copyright (c) 2014 Tony Morales. All rights reserved.
 //
 
@@ -11,10 +11,13 @@ import CoreData
 
 @objc (FeedItem)
 
+
 class FeedItem: NSManagedObject {
 
     @NSManaged var caption: String
     @NSManaged var image: NSData
     @NSManaged var thumbnail: NSData
+    @NSManaged var latitude: NSNumber
+    @NSManaged var longitude: NSNumber
 
 }

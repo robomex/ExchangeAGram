@@ -51,6 +51,12 @@
 			</array>
 		</dict>
 	</array>
+	<key>NSLocationUsageDescription</key>
+	<string>ExchangeAGram Would Like To Use Your Location, yo</string>
+	<key>NSLocationWhenInUsageDescription</key>
+	<string>ExchangeAGram Would Like To Use Your Location, yo</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>ExchangeAGram Would Like To Use Your Location, yo</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
