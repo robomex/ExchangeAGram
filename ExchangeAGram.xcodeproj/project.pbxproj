@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE362FD01A09EB3C00EA5AA1 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE362FCF1A09EB3C00EA5AA1 /* FeedItem.swift */; };
+		DE2A10401A1BCDD1005B5F64 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2A103F1A1BCDD1005B5F64 /* FeedItem.swift */; };
 		DE60E8F619FCB34C00EC4F34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE60E8F519FCB34C00EC4F34 /* AppDelegate.swift */; };
 		DE60E8F919FCB34C00EC4F34 /* ExchangeAGram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE60E8F719FCB34C00EC4F34 /* ExchangeAGram.xcdatamodeld */; };
 		DE60E8FE19FCB34C00EC4F34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE60E8FC19FCB34C00EC4F34 /* Main.storyboard */; };
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DE362FCF1A09EB3C00EA5AA1 /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedItem.swift; path = ../FeedItem.swift; sourceTree = "<group>"; };
+		DE2A103F1A1BCDD1005B5F64 /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedItem.swift; path = ../FeedItem.swift; sourceTree = "<group>"; };
 		DE60E8F019FCB34C00EC4F34 /* ExchangeAGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeAGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE60E8F419FCB34C00EC4F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE60E8F519FCB34C00EC4F34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 		DED89F9D1A0094CB005F55F8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DE362FCF1A09EB3C00EA5AA1 /* FeedItem.swift */,
+				DE2A103F1A1BCDD1005B5F64 /* FeedItem.swift */,
 				DE60E8F719FCB34C00EC4F34 /* ExchangeAGram.xcdatamodeld */,
 			);
 			name = Model;
@@ -260,7 +260,7 @@
 				DE60E8F619FCB34C00EC4F34 /* AppDelegate.swift in Sources */,
 				DE60E91B19FCB78500EC4F34 /* FeedCell.swift in Sources */,
 				DE9297DC1A08B1E0008E9BF8 /* MapViewController.swift in Sources */,
-				DE362FD01A09EB3C00EA5AA1 /* FeedItem.swift in Sources */,
+				DE2A10401A1BCDD1005B5F64 /* FeedItem.swift in Sources */,
 				DE60E91919FCB4F700EC4F34 /* FeedViewController.swift in Sources */,
 				DEAF87D81A07E0DC00E8CD9C /* ProfileViewController.swift in Sources */,
 				DE60E8F919FCB34C00EC4F34 /* ExchangeAGram.xcdatamodeld in Sources */,
